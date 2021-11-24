@@ -1,0 +1,41 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+#board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    border: 3px solid #111;
+}
+
+.tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 98px;
+    height: 99px;
+    font-size: 40px;
+    border: 1px solid #111;
+}
+
+.red {
+    background: red;
+}
+
+.blue {
+    background: blue;
+}
