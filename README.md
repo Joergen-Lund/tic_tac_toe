@@ -1,2 +1,2 @@
-# tic_tac_toe
+# Tic Tac Toe
 Simple Tic Tac Toe. 1 hour coding challenge
